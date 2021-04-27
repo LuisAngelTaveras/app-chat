@@ -7,22 +7,22 @@ import Button from "./components/Button";
 
 function App() {
 
-  const signInWithGoogle = async()=>{
+  const signInWithGoogle = async() => {
     firebase.auth().useDeviceLanguage();
 
 
-    try{
+    try {
       await firebase.auth().signInWithPopup(googleAuthProvider);
 
     }catch(e) {
-      console.error(e.menssage);
+      console.error(e.message);
     }
 };
     
   
   return (
     <div> 
-     <Button onClick={signInWithGoogle}> Sing in with Google </Button>
+    <Button onClick={signInWithGoogle}> Sign in with Google </Button>
     </div>
   );
 }

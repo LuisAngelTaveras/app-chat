@@ -1,9 +1,9 @@
 const Button = ({
     onClick = null,
-    Children = null
+    children = null
 }) =>
 (
-    <button onClick ={onClick}> {Children}</button>
+    <button onClick ={onClick}> {children}</button>
 
 );
 
