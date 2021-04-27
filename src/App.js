@@ -22,7 +22,7 @@ function App() {
   
   return (
     <div> 
-     <Button onClick={signInWithGoogle}> Sing in with Google></Button>
+     <Button onClick={signInWithGoogle}> Sing in with Google </Button>
     </div>
   );
 }
