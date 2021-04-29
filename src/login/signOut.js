@@ -8,7 +8,7 @@ import {
 
          try {
                 await firebase.auth().signOut();
-
+                
             } catch (e) {
 
        console.error(e);

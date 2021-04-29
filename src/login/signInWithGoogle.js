@@ -11,7 +11,7 @@ const signInWithGoogle = async () => {
 
      firebase.auth().useDeviceLanguage();
 
-}
+
 
 
 try {
@@ -21,7 +21,9 @@ try {
 } catch (e) {
 
      console.error(e.message);
+}
 
-};
+};   
+
 
 export default signInWithGoogle;
