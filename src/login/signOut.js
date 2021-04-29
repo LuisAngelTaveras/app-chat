@@ -4,14 +4,14 @@ import {
   
   }from '../config/firebase';
 
-  const signOut = async () => {
+    const signOut = async () => {
 
          try {
                 await firebase.auth().signOut();
 
             } catch (e) {
 
-                    console.error(e);
+       console.error(e);
          }
   };
 
