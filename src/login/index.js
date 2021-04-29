@@ -1,5 +1,5 @@
 import signInWithGoogle from './signInWithGoogle';
-import signOut from './signOut.js';
+import signOut from './signOut';
 
 
 export {
